@@ -22,7 +22,8 @@ RegisterNumber:  212223230201
 ```
 
 ```
-#include <stdio.h> #include<string.h>
+#include <stdio.h> 
+#include<string.h>
 int priority(char x)
 {
     if(x == '&' || x == '|') return 1;
@@ -46,7 +47,8 @@ int main()
         ch[i]=='&'||
         ch[i]=='|')
         {
-            j=priority(ch[i]); switch(j)
+            j=priority(ch[i]); 
+            switch(j)
             {
                 case 1:
                 printf("%c ---- > ",ch[i]);
